@@ -1,278 +1,282 @@
 [
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_path_draw.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_path_draw.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_fragment_manger.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_fragment_manger.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_canvas_mesh.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_canvas_mesh.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_action.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_frag.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_frag.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_main3.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_main3.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mylist.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\mylist.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/item_image.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/item_image.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_view.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_list_view.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_text_view_details.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_text_view_details.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main3.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_main3.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_surface_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_surface_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_activity_start_mode.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_activity_start_mode.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_test_touch_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_test_touch_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_src_file_details.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_src_file_details.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_list_aty.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_view_list_aty.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_adapter_view_filpper.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_adapter_view_filpper.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_icon_aty.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_icon_aty.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_launcher_aty.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_launcher_aty.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/item_list_interceptor.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/item_list_interceptor.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_matrix.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_matrix.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_list_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_list_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_interceptor.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\item_list_interceptor.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_matrix.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_matrix.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_list_view_deatils.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_list_view_deatils.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_launcher_aty.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_launcher_aty.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/mylist.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/mylist.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/head.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/head.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_stack_view.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_stack_view.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\item_image.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_notification.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_notification.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_header.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\AndroidDemo\\listView\\unspecified\\res\\layout\\item_header.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_draw_view_aty.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_draw_view_aty.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_intent_details.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_intent_details.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_activity_start_mode.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_activity_start_mode.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_touch_view.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_test_touch_view.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_path_draw.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_path_draw.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_main2.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_draw_view_aty.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_draw_view_aty.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_icon_aty.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_icon_aty.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pull_to_refresh_list_view_aty.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_pull_to_refresh_list_view_aty.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_media_cancel_action.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_view_switcher.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_view_switcher.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_clip_drawable.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_clip_drawable.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_src_file_details.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_src_file_details.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_adapter_view_filpper.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_adapter_view_filpper.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\head.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_frag.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_frag.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_intent_details.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_intent_details.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_canvas_mesh.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_canvas_mesh.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_pull_to_refresh_list_view_aty.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_pull_to_refresh_list_view_aty.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_anim_tween.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_anim_tween.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/mylistview.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/mylistview.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_fragment_manger.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_fragment_manger.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/item_header.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/AndroidDemo2/listView/unspecified/res/layout/item_header.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_stack_view.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_stack_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_notification.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_notification.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_text_view_details.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_text_view_details.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mylistview.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\mylistview.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_view_list_aty.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_view_list_aty.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_list_view_deatils.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_list_view_deatils.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_clip_drawable.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_clip_drawable.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/activity_main2.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/activity_main2.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_anim_tween.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_anim_tween.xml"
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/frag_view_switcher.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/layout/frag_view_switcher.xml"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_big_media_narrow.xml"
     }
 ]

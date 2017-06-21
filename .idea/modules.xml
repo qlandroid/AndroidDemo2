@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidDemo.iml" filepath="$PROJECT_DIR$/AndroidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidDemo2.iml" filepath="$PROJECT_DIR$/AndroidDemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bindview/bindview.iml" filepath="$PROJECT_DIR$/bindview/bindview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bindview/bindview.iml" filepath="$PROJECT_DIR$/bindview/bindview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listView/listView.iml" filepath="$PROJECT_DIR$/listView/listView.iml" />
       <module fileurl="file://$PROJECT_DIR$/listView/listView.iml" filepath="$PROJECT_DIR$/listView/listView.iml" />
     </modules>
   </component>

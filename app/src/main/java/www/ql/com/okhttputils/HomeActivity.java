@@ -32,6 +32,7 @@ import www.ql.com.okhttputils.function.frag.MatrixFrag;
 import www.ql.com.okhttputils.function.frag.NotificationFrag;
 import www.ql.com.okhttputils.function.frag.SrcFileDetailsFrag;
 import www.ql.com.okhttputils.function.frag.StackViewFrag;
+import www.ql.com.okhttputils.function.frag.SurfaceViewFrag;
 import www.ql.com.okhttputils.function.frag.TextViewDetaileFrag;
 import www.ql.com.okhttputils.function.frag.ViewSwitcherFrag;
 
@@ -43,6 +44,7 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
     private CommonAdapter<FunctionBean> mAdapter;
     private ListView listView;
     private EditText etSearch;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,8 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         addFunction();
 
+        searchList.addAll(list);
+
         etSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -79,8 +83,10 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
             @Override
             public void afterTextChanged(Editable s) {
+
+                searchList.clear();
                 if (!s.toString().isEmpty()) {
-                    searchList.clear();
+
                     for (FunctionBean bean : list) {
                         if (bean.getContent().contains(s)) {
                             //包含
@@ -89,7 +95,8 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
                     }
                     mAdapter.update(searchList);
                 }else {
-                    mAdapter.update(list);
+                    searchList.addAll(list);
+                    mAdapter.update(searchList);
                 }
             }
         });
@@ -148,13 +155,15 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         list.add(new FunctionBean("Tween补间动画", AnimTweenFrag.class.getCanonicalName()));
 
+        list.add(new FunctionBean("surfaceView 的基本使用", SurfaceViewFrag.class.getCanonicalName()));
+
 
     }
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-        FunctionBean bean = list.get(position);
+        FunctionBean bean = searchList.get(position);
         Intent intent = new Intent();
         intent.setClass(this, bean.getClazz());
         intent.putExtra("frag", bean.getFragName());

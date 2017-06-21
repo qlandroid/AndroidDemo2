@@ -29,7 +29,7 @@ public class BallFrag extends BaseFragment {
     private int racketY;//球拍的垂直位置；
 
     private final int RACKET_HEIGHT = 30;
-    private final int RACKET_WIDTH = 90;
+    private final int RACKET_WIDTH = 190;
     //小球大小
     private final int BALL_SIZE = 16;
     //小球纵向的运行速度
@@ -63,7 +63,7 @@ public class BallFrag extends BaseFragment {
         //获取屏幕的宽高
         tableHeight = metrics.heightPixels;
         tableWidth = metrics.widthPixels;
-        racketY = tableHeight - 180;
+        racketY = tableHeight - 100;
         final Handler handler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
