@@ -2,7 +2,6 @@ package www.ql.com.okhttputils;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -20,7 +19,10 @@ import www.ql.com.okhttputils.function.ListViewActivity;
 import www.ql.com.okhttputils.function.PullToRefreshListViewAty;
 import www.ql.com.okhttputils.function.ViewListAty;
 import www.ql.com.okhttputils.function.frag.AdapterViewFlipperFrag;
+import www.ql.com.okhttputils.function.frag.AnimTweenFrag;
 import www.ql.com.okhttputils.function.frag.BallFrag;
+import www.ql.com.okhttputils.function.frag.CanvasMeshFrag;
+import www.ql.com.okhttputils.function.frag.ClipDrawableFrag;
 import www.ql.com.okhttputils.function.frag.DrawViewPathFrag;
 import www.ql.com.okhttputils.function.frag.FragmentManagerFrag;
 import www.ql.com.okhttputils.function.frag.IntentDetailsFrag;
@@ -33,7 +35,7 @@ import www.ql.com.okhttputils.function.frag.StackViewFrag;
 import www.ql.com.okhttputils.function.frag.TextViewDetaileFrag;
 import www.ql.com.okhttputils.function.frag.ViewSwitcherFrag;
 
-public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class HomeActivity extends BaseActivity implements AdapterView.OnItemClickListener {
 
     private ArrayList<FunctionBean> list = new ArrayList<>();
 
@@ -139,6 +141,12 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
         list.add(new FunctionBean("小球自定义View游戏", BallFrag.class.getCanonicalName()));
 
         list.add(new FunctionBean("matrix修改View的偏移，旋转，倾斜等", MatrixFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("ClipDrawable可以让图片循序渐进的展开", ClipDrawableFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("自定义View可以带扭曲，扭曲旗帜等作用", CanvasMeshFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("Tween补间动画", AnimTweenFrag.class.getCanonicalName()));
 
 
     }

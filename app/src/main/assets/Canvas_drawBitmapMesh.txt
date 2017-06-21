@@ -1,0 +1,10 @@
+	使用drawBitmapMesh扭曲图像
+		Canvas提供一个drawbitmapMesh(Bitmap bitmap,int meshWidth,int meshHeight,float[] verts,int vertOffset,int[] colors,int colorOffset,Paint paint);
+		方法，该方法可以看对bitmap进行扭曲
+		可以出现，水波荡漾，风吹旗帜等扭曲的效果
+		
+		1.bitmap:指定需要扭曲的源位图
+		2.meshWidth:该参数控制在横向上把该位图划分成多少个格
+		3.meshHeight:该参数控制在纵向上把该位图划分成多少个格
+		4.verts:该参数是一个长度为(meshWidth + 1)*(meshHeight + 1) * 2 的数组，它记录了扭曲后的位图各"顶点"位置。
+		5.vertOffset:控制verts数组中从第几组元素开始才对bitmap进行扭曲

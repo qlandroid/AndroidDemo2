@@ -1,0 +1,113 @@
+	动画；
+		1.逐帧(Frame)动画
+			在src/drawable/ 的资源文件
+			<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+				android:oneshot=["true"|"false"]>
+				<item android:drawable="@drawable/drawable_resource_name"
+					android:duration="integer"/>
+			</animation-list>
+		android:onshot 控制该动画是否循环播放，如果该参数为true则动画将不会循环播放
+		
+		案例提示：
+			1.创建资源文件
+			2.将该资源文件赋予ImageView.background属性
+			3.在控制层调用：
+				AnimationDrawable anim = (AnimationDrawable)imageView.getBackgound();
+				anim.start();//开始播放
+				anim.stop();//停止播放；
+	
+	2.补间(Tween)动画
+		xml资源文件放到src/anim/ 下
+		简介：补间动画就是指开发者只需指定动画开始、动画结束等"关键帧"，而动画变化的"中间帧"由系统计算并补齐
+		
+		AlphaAnimation:透明度改变的动画。创建该动画时需要指定动画开始时的透明度、结束时的透明度喝动画持续时间，其中透明度可从0变化到1
+		
+		ScaleAnimation:大小缩放的动画。创建该动画时需要指定动画开始时的缩放比，结束时的缩放比，并指定动画持续时间，由于缩放时以不同点为缩放效果并不相同，因此指定缩放动画时还要通过pivotX,pivotY来指定缩放中心的坐标
+		
+		TranslateAnimation:位移变化的动画，创建该动画时需要指定动画开始时的位置、结束时的位置，并指定动画持续时间即可。
+		RotateAnimation:旋转动画。创建该动画时只要指定动画开始的旋转角度、结束时的旋转角度，并指定动画持续时间即可。由于旋转时以不同点为中心的旋转效果并不相同，因此指定旋转动画时还要通过pivotX,pivotY来指定旋转中心的坐标
+		
+		Interpolator根据特定算法计算出整个动画所需要的动态插入帧的密度和位置，负责控制动画的变化速度，能以匀速变化、加速、减速、抛物线速度等各种速度变化
+		Android为interpolator提供了如下几个实现类，分别实现不同的动画变化速度
+		LinearInteroplator：动画以均匀速度改变
+		AccelerateInterpolator: 在动画开始的地方改变速度较慢，然后开始加速
+		AccelerateDecelerateInterpolator:在动画开始、结束的地方改变速度较慢，在中间的时候加速
+		CycleInterpolator:动画循环播放特定的次数，变化速度按正玄曲线改变
+		DecelerateInterpolator:在动画开始的地方改变速度较块，然后开始减速
+		
+		在xml文件中 指定加速 android:interpolator属性
+			@android:anim/linear_interpolator
+			@android:anim/accelerate_interpolator
+			@android:anim/accelerate_decelerate_interpolaor
+			
+		
+		Animation anim = AnimationUtils.loadAnimation(getContext(),R.anim.anim_a);
+        iv0.setAnimation(anim);
+        //设置动画结束后保留状态
+        anim.setFillAfter(true);
+        anim.start();
+		
+		Android 提供了Animation 作为补间动画抽象基类，并且为该抽象基类提供了:
+			AlphaAnimation  透明
+			RotateAnimation 旋转
+			ScaleAnimation  缩放
+			TranslateAnimation 位移
+			四个实现类
+
+		自定义补间动画 需要继承Animation
+		重写
+		applyTransformation(float interpolatedTime,Transformation t)
+			interpolatedTime :代表了动画的时间进行对比，不管动画实际的持续时间如何，当动画播放时，该参数总是自动从0变化到1
+			Transformation:代表了补间动画在不同时刻对图形或组件的变形程度
+
+		Transformation代表了不对图片或视图的变形程度，该对象里封装了一个Matrix对象，对它所包装的Matrix进行唯一、倾斜、旋转等变换时,Transformation将会控制对应的图片或视图进行响应的变换。
+
+		为了控制图片或视图进行三维控件的变化，还需要借助于Android提供的一个Camera,这个Camera并非代表手机的摄像头，而是一个空间变换工具，作用有点类似于Matrix。
+
+		Camera提供方法:
+			getMatrix(Matrix matrix): 将Camera所做的变换应用到指定matrix上
+			rotateX(float deg):使目标组件沿X轴旋转
+			rotateY(float deg);
+			rotateZ(float deg):
+			translate(float x,float y,float z);使目标组件在三维控件里进行位移变换；
+			applyToCanvas(Canvas canvas):把Camera所做的变换应用到Canvas上
+
+	案例代码：
+	public class MyAnimation extends Animation {
+    private float centerX;
+    private float centerY;
+    //定义动画持续时间
+    private int duration;
+    private Camera camera = new Camera();
+
+    public MyAnimation(float x,float y ,int duration) {
+        this.centerX = x;
+        this.centerY = y;
+        this.duration = duration;
+    }
+
+    @Override
+    public void initialize(int width, int height, int parentWidth, int parentHeight) {
+        super.initialize(width, height, parentWidth, parentHeight);
+        setDuration(duration);
+        setFillAfter(true);
+        setInterpolator(new LinearInterpolator());
+    }
+
+    @Override
+    protected void applyTransformation(float interpolatedTime, Transformation t) {
+        camera.save();
+        //根据interpolatedTime时间来控制X,Y,Z上的偏移
+        camera.translate(100.0f - 100.0f * interpolatedTime,150.0f * interpolatedTime - 150, 80.0f -80.0f *interpolatedTime);
+        //根据interpolatedTime时间在Y轴上旋转不同的角度
+        camera.rotateY(360 * (interpolatedTime));
+        camera.rotateX(360 * interpolatedTime);
+        //获取Transformation参数的Matrix对象
+        Matrix matrix = t.getMatrix();
+        camera.getMatrix(matrix);
+
+        matrix.preTranslate( - centerX,-centerY);
+        matrix.postTranslate(centerX,centerY);
+        camera.restore();
+    }
+}
