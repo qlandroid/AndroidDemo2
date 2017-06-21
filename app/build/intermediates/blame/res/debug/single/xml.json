@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\xml\\test_xml.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\xml\\test_xml.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\OkHttpUtils\\app\\build\\intermediates\\res\\merged\\debug\\xml\\test_xml.xml",
+        "source": "E:\\android_work_project\\OkHttpUtils\\app\\src\\main\\res\\xml\\test_xml.xml"
+    }
+]
