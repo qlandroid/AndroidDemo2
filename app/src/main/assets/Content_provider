@@ -1,0 +1,121 @@
+	ContentProvider内容提供者
+	需要在清单文件中注册
+	//authorities相当于为该ContentProvider指定域名
+	<provider android:name=".DictProvider" //组件的名称
+		android:authorities="app.ql.android.providers"
+		android:exported="true"/>
+
+	当我们通过上面配置文件注册了DictProvider之后，其他应用程序就可以通过该Uri来访问DictProvider所暴露的数据了
+	继承ContentProvider
+	public boolean onCreate()：创建时，其他应用程序第一次访问
+	public Uri insert(Uri uri ,ContentValues values):根据该Uri插入Values对应的数据
+	public int delete(Uri uri ,String selection,String[] selectionArgs):根据Uri删除selection条件所匹配的全部记录
+	public int update(Uri uri,ContentValues values,String selection,String[] selectionArgs):根据Uri修改selection条件所匹配的全部记录
+	public Cursor query(Uri uri ,String[] projection,String selection,STring[] selectionArgs,String sortOrder):根据Uri查询出selection条件所匹配的全部记录,其中projection就是一个列名列表，表明只选择出置顶的数据列
+	public String getType(Uri uri):该方法用于返回当前Uri所代表的数据的MIME类型。如果该Uri对应的数据可能包括多条记录，那么MIME类型字符串应该以vnd.android.cursor.dir/开头；如果该Uri对应的数据只包含一条数据，那么MIME类型字符以vnd.android.cursor.item/开头
+
+	ContentProvider要求的Uri：
+	content://app.ql.android.providers/words
+		content:// :这部分是Android的 ContentProvider规定的，
+		app.ql.android.providers :这部分就是注册的访问地址
+		words ：资源
+
+
+	使用ContentResolver操作数据
+		getContentResolver() : 获取该应用默认的ContentResolver.
+		insert(Uri url,ContentValues values):向Uri对应的ContentProvider中插入values对应的数据
+		delete(Uri url,String where,String[] selectionArgs):删除Uri对应的ContentProvider中Where提交匹配的数据
+		update(Uri uri,ContentValues values,String where,String[] selectionArgs):更新Uri对应的ContentProvider中where提交匹配的数据
+		query(Uri uri,String[] projection,String selection,String[] selectionArgs,String sortOrder):查询Uri对应的ContentProvider中where提交匹配的数据
+
+
+		操作系统的ContentProvider
+		ContactsContract.Contacts.CONTENT_URI:管理联系人的UrI.
+		ContactsContract.CommonDataKinds.Phone.CONTENT_URI:管理联系人的电话的Uri
+		ContactsContract.CommonDataKinds.Email.CONTENT_URI: 管理联系人的E-mail的Uri
+
+
+		ArrayList<String> names = new ArrayList<>();
+		ArrayList<ArrayList<String>> details = new ArrayList<>();
+		//使用ContentResolver查找联系人数据
+		Cursor cursor = getContentResolver.query(ContactsContract.Contacts.CONTENT_URI,null,null,null,null);
+		//遍历查询结果，获取系统中所有联系人
+		while(cursor.moveToNext()){
+
+			//获取联系人ID
+			String contactId = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts._ID));
+			//获取联系人的名称
+			String name = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
+			names.add(name);
+			//使用ContentResolver查找联系人的电话号码
+			Cursor phones = getContentResolver().query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,ContactsContract.CommonDataKinds.Phone.CONTACT_ID + "=" + contactId,null,null);
+			ArrayList<String> detail = new ArrayList();
+			//遍历查询结果，获取该联系人的多个电话号码
+			while(phones.moveToNext){
+				//获取查询结果中电话号码列中的数据
+				String phoneNumber = phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+				detail.add("电话号码:"+phoneNumber);
+			}
+			phones.close();
+
+			//使用ContentResolver查找联系人的E-mail地址
+			Cursor emails = getContentResolver().query(ContactsContract.CommonDataKinds.Email.CONTENT_URI,null,ContactsContract.CommonDataKinds.Email.CONTACT_ID + " = " + contactId , null,null);
+			while(emails.moveToNext()){
+				String emailAddress = emails.getString(emails.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA));
+				detail.add("邮件地址:" + emailAddress)；
+
+			}
+			emails.close();
+			details.add(detail);
+		}
+		cursor.close();
+
+		//读取联系人权限
+		<uses-permission android:name="android.permission.READ_CONTACTS"/>
+		<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+
+
+		//添加联系人
+		String name ;
+		String phone;
+		String email;
+		//创建ContentValues;
+		ContentValues values = new ContentValues();
+		//向RawContacts.CONTENT_URI执行一个空值插入
+		//目的是获取系统返回的rawContactId;
+		Uri rawContactUri = getContentResolver().insert(ContactsContract.RawContacts.CONTENT_URI,values);
+		long rawContactId = ContentUris.parseId(rawContactUri);
+		values.clear();
+		values.put(Data.RAW_CONTACT_ID,rawContactId);
+		//设置内容类型
+		values.put(Data.MIMETYPE,StructuredName.CONTENT_ITEM_TYPE);
+		//设置联系人姓名
+		values.put(StructuredName.GIVEN_NAME,name);
+		//向联系人URI添加联系人名字
+		getContentResolver().insert(android.peovider.ContactsContract.Data.CONTENT_URI,values);
+		values.clear();
+		values.put(Data.RAW_CONTACT_ID,rawContactId);
+		values.put(Data.MIMETYPE,Phone.CONTENT_ITEM_TYPE);
+		//设置联系人的电话号码
+		values.put(Phone.NUMBER,phone);
+		//设置电话类型
+		values.put(Phone.TYPE,Phone.TYPE_MOBILE);
+		//向联系人电话号码URI添加电话号码
+		getContentResolver().insert(android.provider.ContactsContract.Data.CONTENT_URI,values);
+		values.clear();
+
+		values.put(Data.RAW_CONTACT_ID,rawContactId);
+		values.put(Data.MIMETYPE,Email.CONTENT_ITEM_TYPE);
+		v//设置联系人的E-mail地址
+		values.put(Email.DATA,email);
+		//设置电子邮箱类型
+		values.put(Email.TYPE,Email.TYPE_MOBILE);
+		//向联系人E-mail Uri添加E-mail数据
+		getContentResolver().insert(android.provider.ContactsContract.Data.CONTENT_URI,values);
+		//结束
+
+
+
+
+
+

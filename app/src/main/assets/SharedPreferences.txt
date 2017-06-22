@@ -1,0 +1,27 @@
+	SharedPreferences接口主要负责读取应用程序的Preferences数据
+	
+		boolean contains(String key):判断SharedPreferences是否包含特定key的数据
+		abstract Map<String,?> getAll():获取SharedPreferences数据里全部的key-value对
+		boolean getXxx(String key,xxx defValue):获取SharedPreferences数据里指定key对应的value，如果不存在则返回默认deValue
+		
+		Editor：
+		SharedPreferences.Editor clear():清空 SharedPreferences 里所有数据。
+		SharedPreferences.Editor putXxx(String key,xx value) :保存数据
+		SharedPreferences.Editor remove(String key):删除SharedPreferences里指定key对应的数据
+		boolean commit():当Editor编辑完成后，调用该方法提交修改；
+		
+		Context.getSharedPreferences(String name,int mode)
+		mode:
+			1.Context.MODE_PRIVATE:只能被本应用程序读写
+			2.Context.MODE_WORLD_READABLE:被其他应用读但不能写
+			3.Context.MODE_WORLD_WRITEABLE:其他应用能读能写
+		
+		SharedPreferences 数据总是保存在/data/data/<package name>/shared_prefs目录下，以xml格式保存
+		
+		例子：
+			<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+			<map>
+				<string name="time">ddddd</string>
+				<int name="aaa">222</int>
+			</map>
+		

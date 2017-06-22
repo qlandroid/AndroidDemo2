@@ -18,6 +18,7 @@ import www.ql.com.okhttputils.function.FragActivity;
 import www.ql.com.okhttputils.function.ListViewActivity;
 import www.ql.com.okhttputils.function.PullToRefreshListViewAty;
 import www.ql.com.okhttputils.function.ViewListAty;
+import www.ql.com.okhttputils.function.frag.AFrag;
 import www.ql.com.okhttputils.function.frag.AdapterViewFlipperFrag;
 import www.ql.com.okhttputils.function.frag.AnimTweenFrag;
 import www.ql.com.okhttputils.function.frag.BallFrag;
@@ -94,7 +95,7 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
                         }
                     }
                     mAdapter.update(searchList);
-                }else {
+                } else {
                     searchList.addAll(list);
                     mAdapter.update(searchList);
                 }
@@ -157,6 +158,17 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         list.add(new FunctionBean("surfaceView 的基本使用", SurfaceViewFrag.class.getCanonicalName()));
 
+        list.add(new FunctionBean("environment访问手机内文件，手机目录，","Environment", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("sharedPreferences的基本使用，","SharedPreferences.txt", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("contentProvider内容提供者的基本使用，","Content_provider", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("系统的Action，常见的Action，","system_action", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("多媒体基本使用,MediaPlayer_soundPool","MediaPlayer_SoundPool", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("多媒体基本使用,MediaRecorder录制音频","MediaRecorder", AFrag.class.getCanonicalName()));
 
     }
 
@@ -167,6 +179,8 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
         Intent intent = new Intent();
         intent.setClass(this, bean.getClazz());
         intent.putExtra("frag", bean.getFragName());
+        intent.putExtra(FragActivity.INTENT_FILE_NAME, bean.getFileName());
+        intent.putExtra(FragActivity.INTENT_TITLE, bean.getContent());
         startActivity(intent);
 
     }
@@ -175,6 +189,8 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
         private Class clazz;
         private String content;
         private String fragName;
+        private String fileName;
+
 
         public FunctionBean(Class clazz, String content) {
             this.clazz = clazz;
@@ -191,6 +207,17 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
             this.content = content;
             this.fragName = fragName;
             this.clazz = FragActivity.class;
+        }
+
+        public FunctionBean(String content,String fileName,String fragName) {
+            this.content = content;
+            this.fragName = fragName;
+            this.fileName = fileName;
+            this.clazz = FragActivity.class;
+        }
+
+        public void setFileName(String fileName) {
+            this.fileName = fileName;
         }
 
         public String getFragName() {
@@ -215,6 +242,10 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         public void setContent(String content) {
             this.content = content;
+        }
+
+        public String getFileName() {
+            return fileName;
         }
     }
 }

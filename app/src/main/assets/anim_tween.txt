@@ -111,3 +111,49 @@
         camera.restore();
     }
 }
+
+	3.属性动画
+		Animator：提供了创建属性动画的基类，基本上不会直接使用该类，通常该类只用于被继承并重写它的相关方法;
+		VauleAnimator:属性动画主要的时间引擎，它负责计算各个帧的属性值，它定义了属性动画的绝大核心功能，包括计算各帧的相关属性值，负责处理更新时间，按属性值的类型控制计算规则。
+		属性动画主要由两方面组成：
+			1.计算各帧的相关属性;
+			2.为指定对象设置这些计算后的值
+		valueAnimator只负责第一方面的内容，因此程序员必须根据VauleAnimator计算并监听值更新来更新队形的相关属性值
+
+		ObjectAnimator:它是ValueAnimator的子类，允许程序员对指定对象的属性执行动画
+
+		AnimatorSet:它时Animator的子类，用于组合更多Animator，并指定多个Animator是按次序播放，还是同时播放
+
+	属性动画还需要利用一个Evaluator(计算器)，该工具控制属性动画如何计算属性值:
+		IntEvaluator:用于计算int类型属性值的计算器
+		FloatEvaluator:用于计算float类型属性值的计算器
+		ArgbEvaluator:用于计算以十六进制图形式表示的颜色值的计算器。
+		TypeEvaluator:计算器接口，开发者可以通过实现该接口来实现自定义计算器。
+
+	使用ValueAnimator创建动画：
+		1.调用ValueAnimator的ofInt(),ofFloat()或 ofObject()静态方法创建ValueAnimator实例
+		2.调用ValueAnimator的setXxx()方法设置动画持续时间，插值方式，重复次数等。
+		3.调用ValueAnimator的start()方法启动动画。
+		4为ValueAnimator注册AnimatorUpdateListener监听器，在该监听器中可以监听ValueAnimator计算出来的值的改变，并将这些值应用到指定对象上。
+
+	例子：
+	VauleAnimator animation = ValueAnimator.ofFloat(0f,1f);
+	animation.setDuration(1000);
+	animation.start();
+	希望使用ValueAnimator创建动画，还需要注册一个监听器:AnimatorUpdateListener,该监听器负责更新对象的属性值，在实现这个监听器时，可以通过getAnimatedValue()方法来获取当前帧的值，并将计算出来的值应用到指定对象上，当该对象的属性持续改变时，该对象也就呈现出动画效果了
+
+	使用ObjectAnimator创建动画
+	ObjectAnimator 继承了ValueAnimator，因此它可以直接将ValueAnimator在动画过程中计算出来的值应用到指定对象的指定属性上.
+
+	//加载资源文件
+	ObjectAnimator anim = (ObjectAnimator) AnimatorInflater.loadAnimator(context,R.animator.anim);
+
+	anim.setEvaluator(new ArgbEvaluator());
+	//对View应用添加属性动画
+	anim.setTarget(View);
+	//开始动画
+	anim.start();
+
+
+
+
