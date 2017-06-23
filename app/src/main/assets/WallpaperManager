@@ -1,0 +1,8 @@
+	壁纸管理器WallpaperManager
+	WallpaperManager = WallpaperManager.getInstance(Context context);
+		setBitmap(Bitmap bitmap):将壁纸设置为bitmap所代表的位图
+		setResource(int resid): 将壁纸设置为resid资源所代表的图片；
+		setStream(InputStream data):将壁纸设置为data数据所代表的图片。
+
+	//授权修改壁纸的权限
+	android.permission.SET_WALLPAPER

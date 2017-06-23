@@ -1,0 +1,10 @@
+	震动器Vibrator
+	Vibrator vibrate = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+		vibrate(long milliseconds):控制手机震动milliseconds毫秒
+		vibrate(long[] pattern ,int repeat)指定手机以pattern指定的模式震动
+			例如pattern = new int[400,800,1200,1600]
+			指定400ms/800ms/1200ms/1600ms 这些时间交替启动关闭手机振动器
+		cancel():关闭手机震动
+
+	权限
+	android.permission.VIBRATE

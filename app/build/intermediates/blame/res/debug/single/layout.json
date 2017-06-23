@@ -128,28 +128,56 @@
         "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_stack_view.xml",
         "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_stack_view.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\item_image.xml"
     },
     {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_header.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\AndroidDemo\\listView\\unspecified\\res\\layout\\item_header.xml"
-    },
-    {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_draw_view_aty.xml",
         "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_draw_view_aty.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_view_switcher.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_view_switcher.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_src_file_details.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_src_file_details.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_intent_details.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_intent_details.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_camera.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_camera.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\item_image.xml"
+    },
+    {
+        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_header.xml",
+        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\AndroidDemo\\listView\\unspecified\\res\\layout\\item_header.xml"
     },
     {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -172,28 +200,8 @@
         "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pull_to_refresh_list_view_aty.xml",
         "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\activity_pull_to_refresh_list_view_aty.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_view_switcher.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_view_switcher.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_src_file_details.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_src_file_details.xml"
     },
     {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_adapter_view_filpper.xml",
@@ -206,10 +214,6 @@
     {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\frag_intent_details.xml",
-        "source": "E:\\android_work_project\\AndroidDemo\\app\\src\\main\\res\\layout\\frag_intent_details.xml"
     },
     {
         "merged": "E:\\android_work_project\\AndroidDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",

@@ -32,6 +32,7 @@ public class FragActivity extends AppCompatActivity {
             tr.replace(R.id.frag_fl_content, fragment).commit();
             return;
         }
+
         try {
             Fragment fragment = (Fragment) Class.forName(frag).newInstance();
             tr.replace(R.id.frag_fl_content, fragment).commit();

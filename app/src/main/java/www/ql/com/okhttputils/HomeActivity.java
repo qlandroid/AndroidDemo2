@@ -22,6 +22,7 @@ import www.ql.com.okhttputils.function.frag.AFrag;
 import www.ql.com.okhttputils.function.frag.AdapterViewFlipperFrag;
 import www.ql.com.okhttputils.function.frag.AnimTweenFrag;
 import www.ql.com.okhttputils.function.frag.BallFrag;
+import www.ql.com.okhttputils.function.frag.CameraFrag;
 import www.ql.com.okhttputils.function.frag.CanvasMeshFrag;
 import www.ql.com.okhttputils.function.frag.ClipDrawableFrag;
 import www.ql.com.okhttputils.function.frag.DrawViewPathFrag;
@@ -31,10 +32,10 @@ import www.ql.com.okhttputils.function.frag.ListViewDetailsFrag;
 import www.ql.com.okhttputils.function.frag.LocaleListFrag;
 import www.ql.com.okhttputils.function.frag.MatrixFrag;
 import www.ql.com.okhttputils.function.frag.NotificationFrag;
-import www.ql.com.okhttputils.function.frag.SrcFileDetailsFrag;
+import www.ql.com.okhttputils.function.frag.ResFileDetailsFrag;
 import www.ql.com.okhttputils.function.frag.StackViewFrag;
 import www.ql.com.okhttputils.function.frag.SurfaceViewFrag;
-import www.ql.com.okhttputils.function.frag.TextViewDetaileFrag;
+import www.ql.com.okhttputils.function.frag.TextViewDetailFrag;
 import www.ql.com.okhttputils.function.frag.ViewSwitcherFrag;
 
 public class HomeActivity extends BaseActivity implements AdapterView.OnItemClickListener {
@@ -140,9 +141,9 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         list.add(new FunctionBean("intent启动模式action,category属性等", IntentDetailsFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("src资源文件下的所有文件夹", SrcFileDetailsFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("src资源文件下的所有文件夹", ResFileDetailsFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("textview所有属性", TextViewDetaileFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("textview所有属性", TextViewDetailFrag.class.getCanonicalName()));
 
         list.add(new FunctionBean("国际化，String类型,type", LocaleListFrag.class.getCanonicalName()));
 
@@ -158,17 +159,31 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         list.add(new FunctionBean("surfaceView 的基本使用", SurfaceViewFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("environment访问手机内文件，手机目录，","Environment", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("environment访问手机内文件，手机目录，", "Environment", AFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("sharedPreferences的基本使用，","SharedPreferences.txt", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("sharedPreferences的基本使用，", "SharedPreferences.txt", AFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("contentProvider内容提供者的基本使用，","Content_provider", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("contentProvider内容提供者的基本使用，", "Content_provider", AFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("系统的Action，常见的Action，","system_action", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("系统的Action，常见的Action，", "system_action", AFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("多媒体基本使用,MediaPlayer_soundPool","MediaPlayer_SoundPool", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("多媒体基本使用,MediaPlayer_soundPool", "MediaPlayer_SoundPool", AFrag.class.getCanonicalName()));
 
-        list.add(new FunctionBean("多媒体基本使用,MediaRecorder录制音频","MediaRecorder", AFrag.class.getCanonicalName()));
+        list.add(new FunctionBean("多媒体基本使用,MediaRecorder录制音频", "MediaRecorder", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("Toast的重复出现解决办法", "toast", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("发送短信SmsManager短信管理器,电话管理器TelephonyManager", "sms_and_telephone_manager", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("AudioManager手机音频管理器", "AudioManager", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("震动器Vibrator,手机震动器", "Vibrator", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("手机闹钟服务AlarmManager", "AlarmManager", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("手机壁纸WallpaperManager", "WallpaperManager", AFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("照相机的案例", CameraFrag.class.getCanonicalName()));
 
     }
 
@@ -209,7 +224,7 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
             this.clazz = FragActivity.class;
         }
 
-        public FunctionBean(String content,String fileName,String fragName) {
+        public FunctionBean(String content, String fileName, String fragName) {
             this.content = content;
             this.fragName = fragName;
             this.fileName = fileName;
