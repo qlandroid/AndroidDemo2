@@ -183,7 +183,10 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
 
         list.add(new FunctionBean("手机壁纸WallpaperManager", "WallpaperManager", AFrag.class.getCanonicalName()));
 
+        list.add(new FunctionBean("相机的基本操作，CameraManager", "CameraManager", AFrag.class.getCanonicalName()));
+
         list.add(new FunctionBean("照相机的案例", CameraFrag.class.getCanonicalName()));
+
 
     }
 

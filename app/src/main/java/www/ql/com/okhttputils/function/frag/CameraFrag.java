@@ -58,6 +58,8 @@ public class CameraFrag extends BaseFragment {
         ORIENTATIONS.append(Surface.ROTATION_270, 180);
 
     }
+
+
     @BindView(R.id.camera_auto_fit_texture_view)
     private AutoFitTextureView textureView;
     @BindView(R.id.camera_btn)
@@ -170,7 +172,6 @@ public class CameraFrag extends BaseFragment {
             Surface surface = new Surface(texture);
             previewRequestBuilder.addTarget(surface);
             //创建CameraCaptureSession,该对象负责管理处理预览请求和拍照请求
-
             cameraDevice.createCaptureSession(Arrays.asList(surface, imageReader.getSurface()), new CameraCaptureSession.StateCallback() {
 
                 @Override

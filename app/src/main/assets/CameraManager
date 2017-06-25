@@ -1,6 +1,6 @@
 	使用Android 5.0的Camera v2拍摄
 	CameraManager 摄像头管理器，专门检测系统摄像头，打开系统摄像头
-	CameraCharacteristics:蛇形头特性，该对象通过CameraManager来获取，用于描述特定摄像头所支持的各种特性
+	CameraCharacteristics:摄像头特性，该对象通过CameraManager来获取，用于描述特定摄像头所支持的各种特性
 	CameraDevice:代表系统摄像头，早期的Camera类
 	CameraCaptureSession：当程序需要预览，拍照时，需要先通过该类的实例创建Session.
 		setRepeatingRequest();设置预览方式
@@ -23,10 +23,10 @@
 			callback : 用于监听CameraCaptureSession 的创建过程
 			handler :如果程序希望直接在当前线程执行callback,则可将handler参数设置为null;
 	3.不管预览还是拍照，程序都调用
-		CamerDevice:
+		CameraDevice:
 			createCaptureRequest(int templateType):创建CaptureRequest.Builder
 				TEMPLATE_PREVIEW:预览
-				TEMPLATE_RECORD: 拍摄射频
+				TEMPLATE_RECORD: 拍摄视频
 				TEMPLATE_STILL_CAPTURE:拍照
 	4.通过CaptureRequest.Builder设置拍照的各个参数，比如对焦模式，曝光模式等
 	5.调用CaptureRequest.Builder 的build()方法即可得到CaptureRequest对象
