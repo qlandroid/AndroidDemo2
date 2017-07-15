@@ -18,6 +18,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 import com.ql.view.bind.BindViewUtils;
+import com.ql.view.utils.ActivityUtils;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 /**
@@ -37,6 +38,7 @@ public abstract class QLActivity extends AppCompatActivity implements View.OnCli
 
         super.onCreate(savedInstanceState);
         createView();
+        ActivityUtils.getInstance().addAty(this);
         int color = getStatusBarTintColor();
         if (color != 0) {
             //设置沉浸式布局时需要给layout布局设置android:fitsSystemWindows="true"该属性
@@ -231,5 +233,9 @@ public abstract class QLActivity extends AppCompatActivity implements View.OnCli
         transaction.show(targetFragment).commit();
     }
 
-
+    @Override
+    protected void onDestroy() {
+        ActivityUtils.getInstance().removeAty(this);
+        super.onDestroy();
+    }
 }
