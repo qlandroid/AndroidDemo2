@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ai.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/ai.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/fan.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/fan.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/tie.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/tie.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/grabber.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/grabber.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/shi.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/shi.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/xue.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/xue.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/icon.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/build/intermediates/res/merged/debug/mipmap-hdpi/bei.png",
+        "source": "/Users/mrqiu/AndroidStudioProjects/work_studio_projects/AndroidDemo2/app/src/main/res/mipmap-hdpi/bei.png"
+    }
+]

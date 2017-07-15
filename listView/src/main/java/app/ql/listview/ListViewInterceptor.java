@@ -65,6 +65,7 @@ public class ListViewInterceptor extends ListView {
     private void init(Context context, AttributeSet attrs, int defStyleAttr) {
         mMinMove = ViewConfiguration.get(context).getScaledTouchSlop();
         mWindwoParams = initWindowLayout();
+
         mAutoScrollHelper = new ListViewAutoScrollHelper(this){
             @Override
             public boolean onTouch(View v, MotionEvent event) {

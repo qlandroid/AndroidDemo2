@@ -1,0 +1,34 @@
+	使用Android 5.0的Camera v2拍摄
+	CameraManager 摄像头管理器，专门检测系统摄像头，打开系统摄像头
+	CameraCharacteristics:摄像头特性，该对象通过CameraManager来获取，用于描述特定摄像头所支持的各种特性
+	CameraDevice:代表系统摄像头，早期的Camera类
+	CameraCaptureSession：当程序需要预览，拍照时，需要先通过该类的实例创建Session.
+		setRepeatingRequest();设置预览方式
+		capture():控制拍照
+
+	监听器
+	CameraRequest,CameraRequest.Builder:当程序调用setRepeatingRequest()方法进行预览时，或调用capture()方法进行拍照时，都需要传入CameraRequest参数，代表了一次捕捉请求，用于描述捕捉图片的各种参数设置，比如对焦模式，曝光模式等
+
+	//打开摄像头
+	1.CameraManager:
+		openCamera(String cameraId,CameraDevice.StateCallback callback,Handler handler):
+			打开指定摄像头，
+			cameraId : 代表打开的摄像头ID;
+			callback : 用于监听摄像头的状态
+			handler : 如果希望程序直接在当前线程执行callback，则可将handler参数设置为null;
+	2.CameraDevice ：根据摄像头Id获取指定摄像头设备，
+		createCaptureSession(List<Surface> outputs,CameraCaptureSeesion.StateCallback callback,Handler handler):
+			创建CameraCaptureSession
+			outputs : 封装了所有需要从摄像头获取图片的Surface
+			callback : 用于监听CameraCaptureSession 的创建过程
+			handler :如果程序希望直接在当前线程执行callback,则可将handler参数设置为null;
+	3.不管预览还是拍照，程序都调用
+		CameraDevice:
+			createCaptureRequest(int templateType):创建CaptureRequest.Builder
+				TEMPLATE_PREVIEW:预览
+				TEMPLATE_RECORD: 拍摄视频
+				TEMPLATE_STILL_CAPTURE:拍照
+	4.通过CaptureRequest.Builder设置拍照的各个参数，比如对焦模式，曝光模式等
+	5.调用CaptureRequest.Builder 的build()方法即可得到CaptureRequest对象
+		通过CameraCaptureSession的setRepeatingRequest()方法开始预览，
+		或调用capture()方法拍照；

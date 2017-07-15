@@ -1,0 +1,107 @@
+	多媒体开发
+		MediaPlayer播放音频
+
+			start() :开始或恢复播放
+			stop():停止播放
+			pause():暂停播放
+			static MediaPlayer create(Context context,Uri uri):从置顶Uri来装载音频文件，并返回新创建的MediaPlayer对象
+			static MediaPlayer create(Context context,int resid):从resid资源id对应的资源文件装载音频文件
+			setDataSource(String path) :指定装载path路径所代表的文件。
+			setDataSource(FileDescriptor fd,long offset ,long length):置顶装载fd所代表的文件中从OFFSET 开始，长度为length的文件内容
+			setDataSource(FileDescriptor fd):置顶装载fd所代表的文件；
+			setDataSource(Context context,Uri uri);
+
+		try{
+			mPlayer.reset();
+			//装载下一首歌曲
+			mPlayer.setDataSource("/mnt/sdcard/next.mp3");
+			//准备声音
+			mPlayer.prepare();
+			//播放
+			mPlayer.start();
+		}
+
+
+		//监听事件
+		setOnCompletionListener(MediaPlayer.OnCompletionListener listener):为MediaPlayer的播放完成事件绑定监听器
+		setOnErrorListener(MediaPlayer.OnErrorListener listener):为MediaPlayer的播放错误时间绑定事件监听器
+		setOnPreparedListener(MediaPlayer.OnPreparedListener listener): 当MediaPlayer调用prepare()方法时触发该监听器
+		setOnSeekCompleteListener(MediaPlayer.OnSeekCompleteListener listener):当MediaPlayer调用seek()方法时触发该监听器
+
+	播放来自网络的音频文件
+		Uri uri = Uri.parse("http://www.baidu.mp3");//只需要添加音频网址即可
+		MediaPlayer mPlayer = new MediaPlayer();
+		//使用MediaPlayer根据Uri来加载指定的声音文件
+		mPlayer.setDataSource(this,uri);
+		//准备声音
+		mPlayer.prepare();
+		//播放
+		mPlayer.start();
+
+	MediaPlayer 除了调用prepare()方法来准备声音之外，还可以调用prepareAsync()来准备声音。
+	prepareAsync()是异步的。不会阻塞当前的UI线程
+
+	控制播放音乐时，均衡器，重低音，音场，以及显示音乐波形等
+	AudioEffect接口父类
+		AcousticEchoCanceler:取消回升控制器
+		AutomaticGainControl: 自动增益控制器
+		NoiseSuppressor:噪声压制控制器
+		BassBoost: 重低音控制器
+		Equalizer:均衡控制器
+		PresetReverb:预设音场控制器
+		Visualizer:示波器
+
+		//取消回声
+		//获取取消回升控制器
+		AcousticEchoCanceler canceler = AcousticEchoCanceler.create(0,mPlayer.getAudioSessionId());
+		if(canceler.isAvailable()){
+			//启动取消回声功能
+			canceler.setEnabled(true);
+		}
+
+		//启动自动增益功能
+		AutomaticGainControl ctrl = AcousticEchoCanceler.create(0,mPlayer.getAudioSessionId());
+		if(ctrl.isAvailable()){
+			//启动自动增益功能：
+			ctrl.setEnabled(true);
+		}
+
+		//启动噪声压制功能
+		NoiseSuppressor supperssor = NoiseSuppressor.create(0,mPlayer.getAudioSessionid());
+		if(supperssor.isAvailable()){
+			suppressor.setEnabled(true);
+		}
+
+		BassBoost 调用setStrength(short strength)方法设置重低音的强度
+		PresetReverb 调用setPreset(short preset) 方法设置使用预设置的音场
+		Equalizer getNumberOfPresets() 获取系统所有预设的音场，并提供了getPresetName()获取预设音场名称
+				getNumberOfBands()获取该军和其支持的总频率数
+				getCenterFreq(short band)根据索引来获取频率
+				setBandLevel(short band,short level)为某个频率的均和器设置参数值
+
+		Visualizer 显示音乐波形，为了实时显示该示波器的数据，需要为该组件设置一个OnDataCaptureListener监听器，该监听器将负责更新波形显示组件的界面
+
+		//MediaPlayer的缺点：
+			资源占用量较高，延迟时间较长
+			不支持多个音频同时播放
+
+		SoundPool播放音效
+			适用于播放密集，短促的音效
+			与MediaPlayer相比
+				CPU资源占用量较低，反应延迟小
+				支持自行设置声音的品质，音量，播放比率等参数
+
+			常用方法
+			int load(Context context,int resId,int priority):从resId多对应的资源加载声音
+			int load(FileDescriptor fd ,long offset,long length,int priority):
+			int load(AssetFileDescriptor afd,int priority) 从afd所对应的文件中加载声音
+			int load(String path, int priority)
+			建议priority = 1；
+			int play(int soundID,float leftVolume,float rightVolume,int priority,int loop,float rate);
+			该方法第一个参数指定播放哪个声音
+			leftVolume,rightVolume置顶左右的音量
+			priority置顶播放声音的优先级，数值越大，优先级越高
+			loop指定是否循环,0为不循环 -1为循环
+			rate置顶播放的比率 0.5 - 2  1为正常
+
+

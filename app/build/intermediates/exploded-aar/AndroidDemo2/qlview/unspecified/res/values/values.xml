@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ffff">#dbff0e</color>
+    <declare-styleable name="LabelTextView"><attr format="string" name="text"/><attr format="string" name="labelText"/><attr format="color" name="textColor"/><attr format="color" name="labelColor"/><attr format="color" name="color"/><attr format="dimension" name="textSize"/><attr format="dimension" name="labelSize"/><attr format="dimension" name="textMarginLeft"/></declare-styleable>
+    <string name="app_name">QLView</string>
+</resources>

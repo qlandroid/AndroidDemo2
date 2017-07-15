@@ -10,7 +10,12 @@
 
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
 
     <application
         android:allowBackup="true"
@@ -21,11 +26,6 @@
         <activity android:name="www.ql.com.okhttputils.MainActivity" />
         <activity android:name="www.ql.com.okhttputils.Main2Activity" />
         <activity android:name="www.ql.com.okhttputils.HomeActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="www.ql.com.okhttputils.function.ListViewActivity" />
         <activity android:name="www.ql.com.okhttputils.function.PullToRefreshListViewAty" />
@@ -38,6 +38,13 @@
         <activity android:name="www.ql.com.okhttputils.function.ViewListAty" />
         <activity android:name="www.ql.com.okhttputils.function.FragActivity" />
         <activity android:name="www.ql.com.okhttputils.function.IconAty" />
+        <activity android:name="www.ql.com.okhttputils.LabelTextViewActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

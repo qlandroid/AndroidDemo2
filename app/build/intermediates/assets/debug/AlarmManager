@@ -1,0 +1,31 @@
+	手机闹钟服务AlarmManager
+	AlarmManager不进时开发闹钟应用，还可以作为全局定时器使用
+	AlarmManager aManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+		set(int type,long triggerAtTime,PendingIntent operation):
+			设置在triggerAtTime时间启动operation参数指定的组件。其中第一个参数指定定时服务的类型
+				ELAPSED_REALTIME:指定从现在开始时间过了已定时间后启动operation所对应的组件
+				ELAPSED_REALTIME_WAKEUP:指定从现在开始时间过乐已定时间后启动opertaion所对应的组件。
+				RTC:指定当系统调用System.currentTimeMillis()方法的返回值与triggerAtTime相等时启动operation所对应的组件
+				RTC_WAKEUP:指定当系统调用System.currentTimeMillis()方法的返回值与triggerAtTime相等时启动operation所对应的组件，即使系统处于休眠状态也会执行operation所对应的组件
+		setInexactRepeating(int type,long triggerAtTime,long interval,PendingIntent operation):
+			设置一个非精确的周期性任务
+				例如：我们设置Alarm每个小时启动一次，但系统并不一定总在每个小时启动Alarm服务
+		setRepeating(int type,long triggerAtTime,long interval,PendingIntent operation):
+			设置一个周期性执行的定时服务
+		cancel(PendingIntent operation):取消AlarmManger的定时服务
+
+	Android4.4(API 19) 添加精确激发
+		setExact(int type,long triggerAtTime,PendingIntent operation)://设置闹钟将在精确的时间被激发
+		setWindow(int type,long windowStartMillis,long windowLengthMillis,PendingIntent operation):设置闹钟将在将缺的时间段内被激发
+
+
+
+	//设置闹钟案例
+	Intent intent = new Intent(context,ToActivity.class);//启动定时任务所要启动的Activity
+	PendingIntent pi = PendingIntent.getActivity(context,0,intent,0);
+	Calendar c= Calendar.getInstance();
+	c.set(Calendar.HOUR,hourOfDay);//时间小时,这个是变量，可以自行填写
+	c.set(Calendar.MINUTE,minute);//分钟，这个是变量，自行填写
+	AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+	//设置在Calendar对应的时间启动组件
+	aManager.set(AlarmManager.RTC_WAKEUP,c.getTimeInMillis(),pi);

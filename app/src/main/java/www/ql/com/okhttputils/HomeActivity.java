@@ -20,6 +20,7 @@ import www.ql.com.okhttputils.function.PullToRefreshListViewAty;
 import www.ql.com.okhttputils.function.ViewListAty;
 import www.ql.com.okhttputils.function.frag.AFrag;
 import www.ql.com.okhttputils.function.frag.AdapterViewFlipperFrag;
+import www.ql.com.okhttputils.function.frag.AddSystemWindowFrag;
 import www.ql.com.okhttputils.function.frag.AnimTweenFrag;
 import www.ql.com.okhttputils.function.frag.BallFrag;
 import www.ql.com.okhttputils.function.frag.CameraFrag;
@@ -186,6 +187,8 @@ public class HomeActivity extends BaseActivity implements AdapterView.OnItemClic
         list.add(new FunctionBean("相机的基本操作，CameraManager", "CameraManager", AFrag.class.getCanonicalName()));
 
         list.add(new FunctionBean("照相机的案例", CameraFrag.class.getCanonicalName()));
+
+        list.add(new FunctionBean("一个可以创建系统级别的显示框，不跟随当前应用的隐藏而隐藏", AddSystemWindowFrag.class.getCanonicalName()));
 
 
     }

@@ -1,1 +1,1 @@
-include ':app', ':listView', ':bindview'
+include ':app', ':listView', ':bindview', ':qlview'

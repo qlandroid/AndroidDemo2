@@ -1,0 +1,16 @@
+    解决Toast连续点击重复创建Toast长时间显示
+    //每次只使用一个Toast，就不会重复出现Toast了
+    public class ToastUtils {
+        private static Toast mToast ;
+        public static void toast(String toast){
+            if (mToast == null){
+                mToast = Toast.makeText(ActivityUtils.getInstance().getTopAty(),toast,Toast.LENGTH_SHORT);
+
+            }else{
+                mToast.setText(toast);
+                mToast.setDuration(Toast.LENGTH_SHORT);
+            }
+            mToast.show();
+        }
+
+    }

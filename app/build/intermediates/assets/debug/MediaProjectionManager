@@ -1,0 +1,8 @@
+    Android5.0新增MediaProjectionManager管理器
+    非常方便的实现屏幕捕捉功能
+    //获取实例对象
+    MediaProjectionManager manager = (MediaProjectionManager) context.getSystemService(Context.MEDIA_PROJECTION_SERVICE);
+        createScreenCaptureIntent();创建屏幕捕捉的Intent
+        startActivityForResult():启动Intent 即可启动屏幕捕捉的Intent
+
+

@@ -1,0 +1,16 @@
+	MediaRecorder录制音频
+	setAudioSource()方法设置声音来源,一般传入MediaRecorder.AudioSource.MIC参数指定录制来自麦克风的声音
+	setOutputFormat()设置所录制的音频文件格式 必须在设置编码格式之前设置
+	setAudioEncode() 设置声音编码格式
+	setAudioEncodingBitRate(int bitRate) 编码位率
+	setAudioSamplingRate(int samplingRate) 采样率
+	setOutputFile(String path) 设置所录制的音频文件保存位置
+	prepare() 准备录制
+	start() 开始录制
+	stop()停止录制
+	release()释放资源
+
+    权限
+	android.permission.RECORD_AUDIO
+	android.permission.WRITE_EXTERNAL_STORAGE
+

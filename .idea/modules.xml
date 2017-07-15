@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/bindview/bindview.iml" filepath="$PROJECT_DIR$/bindview/bindview.iml" />
       <module fileurl="file://$PROJECT_DIR$/listView/listView.iml" filepath="$PROJECT_DIR$/listView/listView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qlview/qlview.iml" filepath="$PROJECT_DIR$/qlview/qlview.iml" />
     </modules>
   </component>
 </project>

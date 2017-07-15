@@ -1,0 +1,46 @@
+	电话管理器TelephonyMangager
+	TelephonyManager tManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+
+	tManager.getDeviceId();//获取设备编号
+	tManager.getDeviceSoftwateVersion();//获取系统平台的版本号
+	tManager.getNetworkOperator();//获取网络运营商代号
+	tManager.getNetworkOperatorName();//获取网路运营商名称
+	tManager.getPhoneType();//获取手机网络类型
+	tManager.getcellLocation().toString();//获取设备所在位置
+	tManager.getSimCountryIso();//获取SIM卡的国别
+	tManager.getSimSerialNumber();//获取SIM卡序列号
+	tManager.getSimState();//获取SIM卡状态
+
+	//权限
+	android.permission.ACCESS_COARSE_LOCATION
+	android.permission.READ_PHONE_STATE
+
+
+	//监听手机来电
+	//监听器
+	tManager.listen(PhoneStateListener listener,PhoneStateListener.LISTEN_CALL_STATE);//添加监听事件
+	PhoneStateListener
+		//number电话号码
+		public void onCallStateChanged(int state,String number){
+
+		}
+	状态state：
+		TelephonyManager.CALL_STATE_IDLE:
+		TelephonyManager.CALL_STATE_OFFHOOK:
+		TelephonyManager.CALL_STATE_RINGING:来电铃声响时
+
+
+
+	短信管理器SmsManager
+	//创建短信管理器
+	SmsManager sManager = SmsManager.getDefault();
+	//发送短信
+	//创建PendingIntent对象
+	PendingIntent pi = PendingIntent.getActivity(context,0,new Intent(),0);
+	sManager.sendTextMessage(number,null,content,pi,null);
+		number:要发送的电话号码
+		content:信息详情；
+	//权限
+	android.permission.SEND_SMS
+
+
